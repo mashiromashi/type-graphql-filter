@@ -8,6 +8,7 @@ export type FilterOperator =
   | "in"
   | "like"
   | "likeAny"
+  | 'relation_in'
   | "exist";
 
-export const ARRAY_RETURN_TYPE_OPERATORS: FilterOperator[] = ["in", "likeAny"];
+export const ARRAY_RETURN_TYPE_OPERATORS: FilterOperator[] = ["in", "likeAny", 'relation_in'];
